@@ -1,0 +1,11 @@
+1. Download latest version of OpenCV, then extract to program files
+2. Follow instructions to set environment variable here: 
+http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html#windowssetpathandenviromentvariable
+3. Use these two props files instead of making them as described here:
+http://docs.opencv.org/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html#windows-visual-studio-how-to
+
+Note: check inside %OPENCV_DIR%\lib and adjust the props files to account for version number.
+Example: opencv_calib3d249d.lib became opencv_calib3d2411d.lib
+
+Note2: Visual studio doesn't let you choose between debug and release automatically in the GUI. see here:
+http://stackoverflow.com/questions/3502530/using-visual-studio-project-properties-effectively-for-multiple-projects-and-con
